@@ -3,6 +3,13 @@
 using namespace std;
 
 //in ra tam giac pascal
+// [1 2 3 4 5]
+// [3 5 7 9]
+// [8 12 16]
+// [8 12 16]
+// [20 28]
+// [48]
+
 
 int main(){
 
