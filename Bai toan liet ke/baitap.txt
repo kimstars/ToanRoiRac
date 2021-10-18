@@ -1,0 +1,6 @@
+Bài 1 : Liệt kê tất cả các xâu nhị phân có độ dài n không chứa hai số 0 liên tiếp
+
+Bài 2 : Liệt kê tất cả các nghiệm nguyên không âm của phương trình : x1 + x2 + x3 + ... + xn = n
+
+Bài 3 : Liệt kê tất cả các nghiệm nguyên không âm của phương trình : x1 + x2 + x3 + ... + xn = n
+         Thỏa mãn x2 chia hết cho 3.

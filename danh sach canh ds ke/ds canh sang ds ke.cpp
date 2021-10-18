@@ -8,6 +8,7 @@ int main(){
     //DS cạnh : Một cạnh được biểu diễn bằng hai đỉnh
     //DS kề: Một đỉnh kề với n đỉnh qua n cạnh :3
     cin >> v >> e;
+    
     vector<int> ke[v+5];
     for(int i = 0; i < e; i++){
         cin >> a >> b;

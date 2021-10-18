@@ -28,12 +28,12 @@ int main(){
     cin >> n;
     uniform_int_distribution<int> dist{0, 2*n};
     cout << "Sinh n + 1 so nguyen duong ";
-    while(result.size() != n + 1){
+    while(result.size() != n +1){
         result.insert(dist(generator));
     }
-    for (set<int>::iterator i = result.begin(); i != result.end(); i++){
-        cout <<*i<< " ";
-    }
+    // for (set<int>::iterator i = result.begin(); i != result.end(); i++){
+    //     cout <<*i<< " ";
+    // }
     vector<int> vec(result.begin(), result.end());
     
     for(int i = 0; i < vec.size(); i++){
