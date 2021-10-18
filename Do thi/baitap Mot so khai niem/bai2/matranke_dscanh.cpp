@@ -12,6 +12,9 @@ int main()
     vector<int> ke[100];
     f >> n;
     string s;
+    ofstream out;
+    out.open("input1_2.txt",ios::out);
+
     for (int i = 0; i <= n; i++)
     {
         fflush(stdin);
@@ -22,6 +25,7 @@ int main()
             {
                 if (s[2 * j] == '1')
                 {
+                    out << i<< " " << j << endl;
                     cout << "("<<i<<","<<j<<")"<<endl;
                 }
             }
