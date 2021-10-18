@@ -3,7 +3,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void mtKetoDScanh(string namein, string nameout){
+void mtKe_DScanh(string namein, string nameout){
     ifstream f;
     f.open(namein, ios::in);
     fflush(stdin);
@@ -83,6 +83,6 @@ void matranke_dske(string namein,string nameout)
 int main()
 {
     matranke_dske("../bai1/input1.txt","input1_1.txt");
-    mtKetoDScanh("../bai1/input1.txt","input1_2.txt");
+    mtKe_DScanh("../bai1/input1.txt","input1_2.txt");
 }
 

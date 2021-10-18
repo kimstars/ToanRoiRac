@@ -11,22 +11,18 @@ void readdskevohuong(string namein,string nameout)
     f >> n;
     string s = "";
     int ke[100][100];
-    for (int i = 1; i <= n; i++)
-    {
-        for (int j = 1; i <= n; i++)
-        {
-            ke[i][j] = 0;
-        }
-    }
+    
+    memset(ke,0,sizeof(ke));
+
     for (int i = 0; i <= n; i++)
     {
         fflush(stdin);
         getline(f, s);
-        cout << s <<"----->";
+        // cout << s <<"----->";
         int j = 0, so = 0;
         while (j <= s.length())
         {
-            cout << so <<endl;
+            // cout << so <<endl;
             if (s[j] >= '0' && s[j] <= '9')
             {
                 so = 10 * so + (int)(s[j] - '0');
@@ -60,6 +56,8 @@ void readdskevohuong(string namein,string nameout)
         out << endl;
         cout << endl;
     }
+    out.close();
+    f.close();
 }
 
 void readdskecohuong(string namein,string nameout)
@@ -70,13 +68,8 @@ void readdskecohuong(string namein,string nameout)
     f >> n;
     string s;
     int ke[100][100];
-    for (int i = 1; i <= n; i++)
-    {
-        for (int j = 1; i <= n; i++)
-        {
-            ke[i][j] = 0;
-        }
-    }
+    
+    memset(ke,0,sizeof(ke));
     for (int i = 0; i <= n; i++)
     {
         fflush(stdin);
@@ -116,13 +109,15 @@ void readdskecohuong(string namein,string nameout)
         out << endl;
         cout << endl;
     }
+    out.close();
+    f.close();
 }
 
 int main()
 {
     readdskevohuong("dske1.txt","input1.txt");
     cout << endl;
-    // readdskecohuong("dske2.txt","input2.txt");
-    // cout << endl;
+    readdskecohuong("dske2.txt","input2.txt");
+    cout << endl;
     
 }
