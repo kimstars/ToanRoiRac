@@ -16,31 +16,15 @@ int main()
     {
         fflush(stdin);
         getline(f, s);
-        if(s.length() > 2){
-            // cout << s << " => ";
-            for(int j = 0; j < n; j++){
-                if(s[2*j] == '1' ){
-                    // cout <<j<<" ";
-                    ke[i].push_back(j+1);
+        if (s.length() > 2)
+        {
+            for (int j = 0; j < n; j++)
+            {
+                if (s[2 * j] == '1')
+                {
+                    cout << "("<<i<<","<<j<<")"<<endl;
                 }
             }
-            // cout <<endl;
         }
-    }
-
-    ofstream out;
-    out.open("input1_1.txt", ios::out);
-    out << n<<endl;
-
-    for (int i = 1; i <= n; i++)
-    {
-        cout << i << ": ";
-        for (int j = 0; j < ke[i].size(); j++)
-        {
-            out << ke[i][j] << " ";
-            cout << ke[i][j] << " ";
-        }
-        out << endl;
-        cout << endl;
     }
 }
