@@ -24,8 +24,8 @@ void mtKe_DScanh(string namein, string nameout){
             {
                 if (s[2 * j] == '1')
                 {
-                    out << i<< " " << j << endl;
-                    cout << "("<<i<<","<<j<<")"<<endl;
+                    out << i<< " " << j+1 << endl; // vì chỉ số trong string s bắt đầu từ 0
+                    cout << "("<<i<<","<<j+1<<")"<<endl;
                 }
             }
         }

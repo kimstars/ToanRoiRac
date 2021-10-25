@@ -6,10 +6,12 @@ using namespace std;
 int main(){
     ifstream f;
     string s;
-    f.open("input1.txt", ios::in);
+    f.open("input1_1.txt", ios::in);
     fflush(stdin);
-    getline(f,s);
-    getline(f,s);
-    for(int i = 0; i < )
-    cout << s;
+    while(getline(f,s, '\n')){
+        cout << s <<endl;
+
+    }
+    
+    
 }

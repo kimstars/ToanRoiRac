@@ -25,8 +25,8 @@ int main()
             {
                 if (s[2 * j] == '1')
                 {
-                    out << i<< " " << j << endl;
-                    cout << "("<<i<<","<<j<<")"<<endl;
+                    out << i<< " " << j+1 << endl;
+                    cout << "("<<i<<","<<j+1<<")"<<endl;
                 }
             }
         }

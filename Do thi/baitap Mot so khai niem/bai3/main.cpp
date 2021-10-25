@@ -1,6 +1,5 @@
+// Viết c/trình C đọc dữ liệu từ file input1_1.txt(ds kề) sau đó đưa ra: Ma trận kề biểu diễn đồ thị; D/s cạnh  của đồ thị; Bậc của từng đỉnh.(KQ lưu trong file output1_1.txt): 
 
-#include <iostream>
-#include <vector>
 #include <bits/stdc++.h>
 using namespace std;
 

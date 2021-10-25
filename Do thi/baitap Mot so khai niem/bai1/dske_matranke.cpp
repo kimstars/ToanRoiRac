@@ -31,6 +31,7 @@ void dsKe_matranKeVohuong(string namein,string nameout)
             }
             j++;
         }
+        
     }
     
     for (int i = 0; i <= n; i++)
