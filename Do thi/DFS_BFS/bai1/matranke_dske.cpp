@@ -52,6 +52,6 @@ void matranke_dske(string namein,string nameout)
 
 int main()
 {
-    matranke_dske("../bai1/input2.txt","input2_1.txt");
+    matranke_dske("G.txt","dscanh.txt");
     
 }

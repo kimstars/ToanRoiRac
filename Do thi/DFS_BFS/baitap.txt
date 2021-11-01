@@ -1,0 +1,54 @@
+Một đồ thị được gọi là liên thông (connected) nếu có đường đi giữa mọi cặp đỉnh phân biệt của đồ thị. 
+Ngược lại, đồ thị này được gọi là không liên thông (disconnected)
+
+
+Còn nếu khi xét về có hướng thì nó còn có 2 cái định nghĩa sau đi kèm:
+-Liên thông mạnh (strongly connected): Đồ thị có hướng gọi là liên thông mạnh nếu có đường đi từ a tới b và từ b tới a với mọi cặp đỉnh a và b của đồ thị.
+
+-Liên thông yếu (weakly connected): Đồ thị có hướng gọi là liên thông yếu nếu có đường đi giữa 2 đỉnh bất kỳ của đồ thị vô hướng tương ứng với đồ thị đã cho. Tức là hủy bỏ các hướng của các cạnh trong đồ thị
+
+-Liên thông một phần (unilaterally connected): Đồ thị có hướng gọi là liên thông một phần nếu với mọi cặp đỉnh a, b bất kỳ, có ít nhất một đỉnh đến được đỉnh còn lại.
+
+
+
+
+BÀI TẬP TRÊN LỚP
+
+
+0 3 6 0 0 0 0
+3 0 2 4 0 0 0
+6 2 0 1 4 2 0
+0 4 1 0 2 0 4
+0 0 4 2 0 2 1
+0 0 2 0 2 0 4
+0 0 0 4 1 4 0
+
+Cho 1 đồ thị vô hướng được lưu dưới dạng ma trận kề. Viết chương trình thực hiện các công việc sau:
+
+1. In ra thứ tự các đỉnh được duyệt theo dfs
+2. In ra thứ tự các đỉnh được duyệt theo bfs
+3. In ra cây khung của đồ thị được tìm  theo dfs
+4. In ra cây khung của đồ thị được tìm theo bfs
+5. Kiểm tra đồ thị đã cho có phải là một cây không?
+6. Tìm và in ra các đỉnh trên từng thành phần liên thông của đồ thị?
+7. Tìm đường đi từ 1 đỉnh tới tất cả các đỉnh còn lại.
+
+1: 2 3
+2: 1 3 4
+3: 1 2 4 5 6
+4: 2 3 5 7
+5: 3 4 6 7
+6: 3 5 7
+7: 4 5 6
+
+
+
+
+
+
+
+
+
+
+
+

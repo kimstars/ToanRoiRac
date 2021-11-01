@@ -1,3 +1,7 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
 
 void dsKe_matranKeVohuong(string namein,string nameout)
 {
